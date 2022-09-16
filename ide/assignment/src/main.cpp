@@ -1,6 +1,6 @@
 #include <Arduino.h>
 
-int A=1,B=1,C=1;
+int A=0,B=0,C=0;
 int X,Y;
 
 void blink(int K,int L)
@@ -25,9 +25,9 @@ void setup()
 void loop()
 {
 	X = (A||B)||C;
-	Y = A||(B||C);
-	blink(X,Y);
-	delay(5000);
+	digitalWrite(8, X);
+//	Y = A||(B||C);
+//	blink(X,Y);
 }
 //&& is the AND operation
 // || is the OR operation
