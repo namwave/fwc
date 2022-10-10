@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  10 OCT 2022 14:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.22)  10 OCT 2022 14:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**cone.tex
-(./cone.tex
+**opti.tex
+(./opti.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -446,8 +446,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [journal].
 
-(./cone.aux)
-\openout1 = `cone.aux'.
+(./opti.aux)
+\openout1 = `opti.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
@@ -539,9 +539,9 @@ LaTeX Info: Redefining \ref on input line 42.
 LaTeX Info: Redefining \pageref on input line 42.
 LaTeX Info: Redefining \nameref on input line 42.
 
-(./cone.out) (./cone.out)
+(./opti.out) (./opti.out)
 \@outlinefile=\write3
-\openout3 = `cone.out'.
+\openout3 = `opti.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
@@ -555,72 +555,47 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<conic.png, id=4, 575.14874pt x 430.60875pt>
-File: conic.png Graphic file (type png)
-<use conic.png>
-Package pdftex.def Info: conic.png  used on input line 53.
-(pdftex.def)             Requested size: 266.0125pt x 199.16656pt.
+<opt_basic.png, id=7, 782.925pt x 644.4075pt>
+File: opt_basic.png Graphic file (type png)
+<use opt_basic.png>
+Package pdftex.def Info: opt_basic.png  used on input line 94.
+(pdftex.def)             Requested size: 266.0125pt x 218.94815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 94--96
+ [][] 
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./conic.png>]
-Overfull \hbox (38.42113pt too wide) in paragraph at lines 170--184
-[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--184
-
- []
-
-[2
-
-] (./cone.aux)
-Package rerunfilecheck Info: File `cone.out' has not changed.
+ <./opt_basic.png>]
+(./opti.aux)
+Package rerunfilecheck Info: File `opti.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11037 strings out of 478287
- 172129 string characters out of 5849289
- 503221 words of memory out of 5000000
- 29048 multiletter control sequences out of 15000+600000
+ 11024 strings out of 478287
+ 171914 string characters out of 5849289
+ 489938 words of memory out of 5000000
+ 29038 multiletter control sequences out of 15000+600000
  482699 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,13n,63p,319b,393s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,255b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on cone.pdf (2 pages, 196221 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb>
+Output written on opti.pdf (1 page, 152191 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
